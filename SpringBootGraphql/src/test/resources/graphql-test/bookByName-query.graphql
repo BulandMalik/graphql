@@ -1,0 +1,12 @@
+query bookDetailsByName($name: String!) {
+    bookByName(name: $name) {
+        id
+        name
+        pageCount
+        author {
+            id
+            firstName
+            lastName
+        }
+    }
+}

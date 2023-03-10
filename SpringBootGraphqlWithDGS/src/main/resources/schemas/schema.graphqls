@@ -1,9 +1,0 @@
-type Query {
-    albums(titleFilter: String): [Album]
-
-    customers: [Customer]
-}
-
-type Mutation {
-    customer(customerInput: CustomerInput): Customer
-}

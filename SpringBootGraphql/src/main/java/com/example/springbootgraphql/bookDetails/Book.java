@@ -13,6 +13,10 @@ public class Book {
     private int pageCount;
     private String authorId;
 
+    // for Test Cases as otherwise getting error ' (no Creators, like default constructor, exist)'
+    public Book() {
+
+    }
     public Book(String id, String name, int pageCount, String authorId) {
         this.id = id;
         this.name = name;

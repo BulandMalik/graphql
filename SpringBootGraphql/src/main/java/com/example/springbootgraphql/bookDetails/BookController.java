@@ -70,6 +70,7 @@ public class BookController {
      */
     @SchemaMapping
     public Author author(Book book) {
+        _LOG.info("_____________ author called with book["+book+"]");
         return authorRepository.getById(book.getAuthorId());
     }
 

@@ -1,3 +1,11 @@
+extend type Query {
+    customers: [Customer]
+}
+
+type Mutation {
+    customer(customerInput: CustomerInput): Customer
+}
+
 type Customer {
     customerNumber: Int!
     name: String!
