@@ -107,6 +107,7 @@
 					</schemaPaths>
 					<packageName>com.buland.graphqldgs.generated</packageName>
 					<addGeneratedAnnotation>true</addGeneratedAnnotation>
+					<javaGenerateAllConstructor>true</javaGenerateAllConstructor>
 				</configuration>
 			</plugin>
 

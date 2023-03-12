@@ -9,6 +9,8 @@ Netflix created a Domain Graph Service Framework (DGS) server framework to make 
 
 `Netflix DGS (Domain Graph Service)` is a GraphQL server framework written in Kotlin based on Spring Boot and is designed to have minimal external dependencies aside from Spring framework.
 
+Netflix DGS is an annotation-based GraphQL Java library built on top of Spring Boot. Consequently, it is dedicated to Spring Boot applications. Besides the annotation-based programming model, it provides several useful features. Netflix DGS allows generating source code from GraphQL schemas. It simplifies writing unit tests and also supports websockets, file uploads, or GraphQL federation. In order to show you the differences between this library and the previously described Kickstart library, I’ll use the same Spring Boot application as before. Let me just briefly describe our scenario.
+
 DGS also comes with code-gen plugin to generate Java or Kotlin code from GraphQL Schema.
 
 The DGS Framework (Domain Graph Service) is a GraphQL server framework for Spring Boot, developed by Netflix.
